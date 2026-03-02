@@ -33,7 +33,7 @@ weather_timebaseDataset = 3600 #in seconds per interval
 
 #Simulation:
 #number of days to simulate and skipping of initial days. Simulation starts at Sunday January 1.
-numDays = 365			# number of days
+numDays = 7			# number of days
 startDay = 0			# Initial day
 
 
@@ -43,9 +43,9 @@ from astral import Location
 
 location = Location()
 location.solar_depression = 'civil'
-location.latitude = 52.239095
-location.longitude = 6.857018
-location.timezone = 'Europe/Amsterdam'
+location.latitude = 50.8798
+location.longitude = 4.7005
+location.timezone = 'Europe/Brussels'
 location.elevation = 0
 
 #Select the devices in the neighbourhood
