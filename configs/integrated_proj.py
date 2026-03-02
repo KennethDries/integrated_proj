@@ -147,7 +147,7 @@ import households
 for i in range(0,1):
 	householdList.append(households.HouseholdSingleWorker())
 
-for i in range(0,2):
+for i in range(0,1):
 	householdList.append(households.HouseholdSingleRetired())
 
 for i in range(0,1):
@@ -156,10 +156,10 @@ for i in range(0,1):
 for i in range(0,1):
 	householdList.append(households.HouseholdDualWorker(False))
 
-for i in range(0,2):
+for i in range(0,1):
 	householdList.append(households.HouseholdDualRetired())
 
-for i in range(0,2):
+for i in range(0,1):
 	householdList.append(households.HouseholdFamilyDualWorker(True))
 
 for i in range(0,1):
