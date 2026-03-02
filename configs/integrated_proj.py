@@ -70,8 +70,8 @@ penetrationPV				= 50
 penetrationBattery 			= 10	#Note only houses with PV will receive a battery!
 
 # Heating systems, with restriction that the sum <= 100
-penetrationHeatPump 		= 25
-penetrationCHP				= 5		# Combined heat and power
+penetrationHeatPump 		= 100
+penetrationCHP				= 0		# Combined heat and power
 
 penetrationInductioncooking = 25
 
